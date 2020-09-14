@@ -3,8 +3,8 @@ import wx.grid
 from datetime import datetime
 
 #from dodatki import Dodatki
-from db.oferta import Oferta, Postanowienia, OfertaService
-from element import ElementView
+from model.oferta import Oferta, Postanowienia, OfertaService
+from .element import ElementView
 import re
 class OfertaView(ElementView):
 

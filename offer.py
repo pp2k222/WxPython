@@ -1,20 +1,19 @@
 import wx
 import wx.lib.scrolledpanel as scrolled
-from element1 import Element1View
-from element2 import Element2View
-from element3 import Element3View
-from element4 import Element4View
-from element5 import Element5View
-from oferta import OfertaService 
-from oferta import OfertaView
+from view.element1 import Element1View
+from view.element2 import Element2View
+from view.element3 import Element3View
+from view.element4 import Element4View
+from view.element5 import Element5View
+from model.oferta import OfertaService 
+from view.oferta import OfertaView
 import main
-from umowa_pdf import generate_Umowa_PDF
-from oferta_pdf import generate_Oferta_PDF
+from view.umowa_pdf import generate_Umowa_PDF
+from view.oferta_pdf import generate_Oferta_PDF
 class OfferForm(wx.Frame):
     def __init__(self,oferta_id=None):
         wx.Frame.__init__(self, None, wx.ID_ANY, "ZHU Skoczylas Offer Creator", size=(1200,650),style=(wx.DEFAULT_FRAME_STYLE | wx.WANTS_CHARS))
         self.id_offer = oferta_id
-        print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
         print(self.id_offer)
         self.panel = wx.Panel(self, wx.ID_ANY,size=(-1,50),pos=(0,0))
         self.OFFER_TEMPLATE_ID = 1

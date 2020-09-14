@@ -1,9 +1,9 @@
 import wx
 import wx.grid
 #from dodatki import Dodatki
-from db.element5 import Element5, Dodatki_Element5
-from dodatki import DodatkiView
-from element import ElementView
+from model.element5 import Element5, Dodatki_Element5
+from .dodatki import DodatkiView
+from .element import ElementView
 import re
 class Element5View(ElementView):
 

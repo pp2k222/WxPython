@@ -1,7 +1,6 @@
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-import db.db_conf
-from db.db_conf import Session, Base, engine
+from .db_conf import Session, Base, engine
 
 
 class Element4(Base):

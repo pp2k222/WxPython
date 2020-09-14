@@ -1,8 +1,8 @@
 import wx
 import wx.grid
 #from dodatki import Dodatki
-from dodatki import DodatkiView
-from db.oferta import OfertaService
+from .dodatki import DodatkiView
+from model.oferta import OfertaService
 REMOVE_EL_MESSAGE = "Czy na pewno chcesz usunąć element"
 REMOVE_EL_CAPTION = "Usuń Element"
 class ElementView(wx.Panel):

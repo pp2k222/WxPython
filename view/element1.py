@@ -1,8 +1,8 @@
 import wx
 import wx.grid
 #from dodatki import Dodatki
-from db.element1 import Element1, Dodatki_Element1
-from element import ElementView
+from model.element1 import Element1, Dodatki_Element1
+from .element import ElementView
 import re
 INT_REGEX = '[^0-9]+'
 class Element1View(ElementView):

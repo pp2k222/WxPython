@@ -3,11 +3,11 @@ from sqlalchemy.orm import relationship
 from .db_conf import Base, Session, engine
 from datetime import datetime
 
-from db.element4 import Element4, Dodatki_Element4
-from db.element5 import Element5, Dodatki_Element5
-from db.element2 import Element2, Dodatki_Element2
-from db.element3 import Element3, Dodatki_Element3
-from db.element1 import Element1, Dodatki_Element1
+from model.element4 import Element4, Dodatki_Element4
+from model.element5 import Element5, Dodatki_Element5
+from model.element2 import Element2, Dodatki_Element2
+from model.element3 import Element3, Dodatki_Element3
+from model.element1 import Element1, Dodatki_Element1
 
 DATA_FORMAT = '%Y-%m-%d'
 

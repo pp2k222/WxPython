@@ -1,16 +1,16 @@
 
 import wx
 import wx.lib.scrolledpanel as scrolled
-from oferta import OfertaView
-from oferta import OfertaService,Oferta 
+from view.oferta import OfertaView
+from model.oferta import OfertaService,Oferta 
 
 import offer
 
-from db.element1 import Element1
-from db.element2 import Element2
-from db.element3 import Element3
-from db.element4 import Element4
-from db.element5 import Element5
+from model.element1 import Element1
+from model.element2 import Element2
+from model.element3 import Element3
+from model.element4 import Element4
+from model.element5 import Element5
 class MyForm(wx.Frame):
     
     #----------------------------------------------------------------------
